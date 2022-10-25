@@ -1,0 +1,10 @@
+server:
+  ssl:
+    key-store-password: 123456
+    protocol: TLS
+    key-store-type: PKCS12
+    enabled-protocols: TLSv1.2
+    enabled: true
+    key-store: classpath:keystore/tlslocaltest.jks
+    key-alias: 1
+  port: 8443
